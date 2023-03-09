@@ -3,7 +3,7 @@ from rich.console import Console
 from rich import inspect
 from rich.table import Table
 
-print("[bold magenta]Hello[/bold magenta] [i yellow]World![/i yellow]")
+print("[bold magenta]Bold magenta[/bold magenta]")
 
 console = Console()
 console.print("Hello", "World!", ":smiley:", style="bold red")
